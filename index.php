@@ -4,10 +4,7 @@ require_once __DIR__.'/modules/includes.php';
 
 include 'modules/header.php';
 
-$coinURL = 'https://nano.org';
-if ($currency == 'banano') {
-    $coinURL = 'https://banano.co.in/';
-}
+$coinURL = 'https://frostbit.info';
 
 ?>
 <div class="page-header mb-3" id="banner">
